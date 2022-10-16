@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+#image-text img{
+    height: 15vw;
+    width: auto;
+    /* margin-left:27%; */
+    /* margin-top:3vh; */
+    padding:1vh;
+    border:solid 1px white;
+}
+
+#left img{
+    height:10vh;
+}
+
+
+#right-image{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+#left img{
+    margin-left:5vw;
+}
+
+#left span{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+}
+
+
+i{
+    margin-top:5vh;
+    color:white;
+    /* display:block; */
+}
+
+
+#socials{
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    margin-left:5vw;
+}
+
+#line{
+        border-left: 1px solid white;
+        height: 15vh;
+        margin-left:0.5vw;
+        float: bottom;
+}
+
+
+#contact-button{
+    display: flex;
+    justify-content: center;
+    margin-top:5vh;
+    margin-bottom:10vh;
+}
+
+.mailto span{
+    color:white;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    font-size:3vh;
+    text-align: center;
+    padding:1vh 2vw 1vh 2vw;
+    border:solid 1px rgb(211, 211, 211);
+    box-shadow: inset 0 0 0 0 rgb(211, 211, 211);
+  -webkit-transition: ease-out 0.7s;
+  -moz-transition: ease-out 0.7s;
+  transition: ease-out 0.7s;
+  background-color: black;
+}
+
+
+
+.mailto span:hover{
+    color:black;
+    /* background-color: white; */
+    
+    box-shadow: inset 400px 0 0 0 white;
+    /* opacity: 0.7; */
+
+}
+
+
+input[type=submit],select{
+    color:white;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    font-size:3vh;
+    text-align: center;
+    padding:1vh 2vw 1vh 2vw;
+    border:solid 1px rgb(211, 211, 211);
+    /* box-shadow: inset 0 0 0 0 rgb(211, 211, 211); */
+    background-color: black;
+    
+    /* box-shadow: inset 0 0 0 0 rgb(211, 211, 211); */
+}
+
+input[type=submit]:hover,select:hover{
+    color:black;
+    background-color: white;
+    transition: ease-out 0.5s;
+    /* box-shadow: inset 400px 0 0 0 white; */
+}
+
+#submit-form{
+    display: flex;
+    justify-content: center;
+    margin-top:5vh;
+}
+
+/* #line{
+    height:5vh;
+    width:1px;
+    border:1px white solid;
+} */
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+#left-bar{
+    margin-right:5vw;
+}
+
+#left-bar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-bar ul li{
+    /* margin-left:5vw; */
+    padding:2vh 2vw 2vh 2vw;
+    /* transition-delay: 0.1s; */
+    /* color:white; */
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.7s;
+    -moz-transition: ease-out 0.7s;
+    transition: ease-out 0.7s;
+    list-style-type: none;
+}
+
+#left-bar ul li p{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+    font-size:2.5vh;
+    /* transition-delay:1s;; */
+    /* -webkit-animation:cubic-bezier(0.075, 0.82, 0.165, 1); */
+    
+
+}
+
+#left-bar ul li:hover{
+    /* background-color: white; */
+    color:black;
+    box-shadow: inset 400px 0 0 0 white;
+    /* transition-delay: 0.3s; */
+
+}
+
+
+#left-bar ul li:hover p{
+    /* background-color: white; */
+    color:black;
+    /* transition-delay: 0.7s; */
+}
+
+#left-abr ul li p{
+    color:white;
+    /* transition:0.2s; */
+}
+
+
+
+#logo{
+    margin-left:5vw;
+}
+
+#logo img{
+    height:7vh;
+    margin-top:2vh;
+
+}
+
+label{
+    color:white;
+}
+
+#upper-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type=text],input[type=email], select {
+    border:none;
+    width: 100%;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0; */
+    font-size:2.3vh;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    background-color:black;
+    width:20vw;
+    color:white;
+    font-family: 'poppins',sans-serif;
+}
+
+input[type=text]:focus,input[type=email]:focus, select:focus {
+    outline:none;
+}
+
+input[type=email],select{
+    margin-left: 3vw;
+}
+
+#lower-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+textarea{
+    background-color: black;
+    border:none;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+    width:43vw;
+    height:10vh;
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-size: 2.3vh;
+}
+
+
+#about-content{
+    display: flex;
+    justify-content: center;
+    margin-top:35vh;
+    margin-bottom: 35vh;
+}
+
+#about-content-top span,#about-content-top p{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4vh;   
+}
+
+i:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+#made{
+    display: flex;
+    justify-content: center;
+    margin-bottom:3vh;
+    margin-top:5vh;
+}
+
+#made-1{
+    color:rgb(151, 151, 151);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    text-align: center;
+    /* margin-top:1vh; */
+}
+
+
+#made-2{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-left:1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- */
+
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  
