@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+#top{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-left:3vw;
+    opacity:0.5;
+    font-size: 3vh;
+}
+
+#image-text img{
+    height: 15vw;
+    width: auto;
+    /* margin-left:27%; */
+    /* margin-top:3vh; */
+    padding:1vh;
+    border:solid 1px white;
+}
+
+#left img{
+    height:10vh;
+}
+
+#count p{
+    color:white;
+    /* font-weight: 100; */
+    margin-left:5vw;
+    font-family: 'poppins',sans-serif;
+    margin-top:5vh;
+    font-size: 3vh;
+    opacity:0.5;
+
+}
+#image-text{
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* margin-top:0vh; */
+}
+
+#image-text p{
+    font-size: 3vh;
+    opacity:1;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    margin-top:0vh;
+    opacity: 0.6;
+}
+
+
+#Button-id{
+    margin-top:3vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+#Button-id button{
+    background-color: transparent;
+    color:white;
+    border:none;
+    padding:1vh 2vh 1vh 2vh;
+    float: center;
+    font-size:2vh;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    border:solid white 1px;
+    margin-left:3vw;
+    opacity: 0.6;
+    /* font-size: 4; */
+}
+
+
+#Button-id button:hover{
+    background-color: white;
+    color:black;
+    /* opacity: 0; */
+    transition: 0.3s;
+    cursor:pointer;
+    opacity: 1;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    margin-top:5vh;
+}
+
+#basic{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#right-image{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+#left img{
+    margin-left:5vw;
+}
+
+#left span{
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+}
