@@ -1,0 +1,103 @@
+/* *************************universal******************************* */
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+
+/* ***************************************************user code*************************** */
+#user{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+    margin:10vh 20vw 0 20vw;
+}
+
+
+#user p{
+    text-align: center;
+    font-size:4vh;
+}
+
+#rock{
+    height:80px;
+    width:80px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+}
+
+#rock:active,#paper:active,#scissors:active,#reset:active{
+    transform: scale(0.9);
+}
+
+#paper{
+    height:80px;
+    width:80px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+}
+
+
+#scissors{
+    height:80px;
+    width:80px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+}
+
+/* **********************************************score****************************** */
+
+#score{
+    margin-top:5vh;
+}
+
+
+#score span{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top:10vh; */
+}
+
+
+
+#result{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3vh;
+}
+
+
+
+
+
+
+
+
+
+/* *******************************************reset************************************ */
+
+#clear{
+    height:80px;
+    width:80px;
+    background-color: rgb(169, 169, 169);
+    border-radius: 10px;
+}
+
+
+#reset{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+    margin-top:5vh;
+}
+
+
+#reset p{
+    text-align: center;
+    font-size:4vh;
+}
